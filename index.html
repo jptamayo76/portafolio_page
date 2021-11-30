@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Pablo Tamayo's Portfolio</title>
+
+    <!-- Bootstrap 5.1.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/70ee8ba41b.js" crossorigin="anonymous"></script>
+
+    <!-- Mi estilo local -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-nav-footer">
+        <div class="container">
+            <a class="navbar-brand mb-0 h1-custom" href="#">M</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 160px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#sobremi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER HERO SECTION -->
+    <header id="hero-section">
+        <div class="container text-center text-white">
+            <h1>YO SOY</h1>
+            <hr class="hero-line mx-auto opacity-100">
+            <h1>MAGDALENA</h1>
+        </div>
+    </header>
+
+    <!-- DESCRIPTION SECTION -->
+    <section id="sobremi" class="pt-5 container d-none d-sm-block">
+        <div>
+            <h4 class="text-center fw-bold">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo nostrum corrupti quaerat iure
+                magnam officiis et consequatur, dicta animi nemo adipisci, voluptatibus soluta eos laboriosam unde sint.
+                Soluta, consectetur.
+            </h4>
+            <hr class="opacity-100 w-25 mx-auto mt-4">
+            <div class="row pt-4">
+                <div class="col">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus culpa iure animi
+                        officiis dolores reprehenderit impedit voluptatibus et nisi adipisci vero totam velit
+                        dignissimos consequuntur expedita quod, non suscipit.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptatibus magnam. Maxime,
+                        perspiciatis. Ea dolorum, possimus asperiores fugiat fugit tempore cupiditate ex veritatis quos
+                        facilis accusamus tempora est nulla rerum!
+                    </p>
+                </div>
+                <div class="col">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus culpa iure animi
+                        officiis dolores
+                        reprehenderit impedit voluptatibus et nisi adipisci vero totam velit dignissimos consequuntur
+                        expedita quod, non
+                        suscipit.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptatibus magnam. Maxime,
+                        perspiciatis. Ea
+                        dolorum, possimus asperiores fugiat fugit tempore cupiditate ex veritatis quos facilis accusamus
+                        tempora est nulla
+                        rerum!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experiencia" class="container py-5 text-center">
+        <div>
+            <h1 class="fw-bold">MI EXPERIENCIA </h1>
+            <hr class="opacity-100 mx-auto w-25">
+        </div>
+
+        <div class="row pt-3">
+            <article class="col-12 col-sm-6">
+                <i class="fab fa-empire fa-10x" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Stormtrooper"></i>
+                <h4 class="fw-bold mt-3">Stormtrooper
+                </h4>
+                <h4>
+                    1980 - 2014
+                </h4>
+            </article>
+            <article class="col-12 col-sm-6">
+                <i class="fab fa-medium-m fa-10x" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Desarrolladora Rails"></i>
+                <h4 class="fw-bold mt-3">Desarrolladora Rails
+                </h4>
+                <h4>
+                    2014 - 2018
+                </h4>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Meet&Coffe</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Meet&Coffe was great.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JOBS SECTION -->
+    <section id="trabajos" class="container py-5">
+        <div>
+            <h1 class="fw-bold text-center text-uppercase text-white">
+                mis últimos trabajos
+            </h1>
+            <hr class="opacity-100 bg-white mx-auto w-25">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="assets/img/meet_coffee.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Meet&Coffe</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quisquam nulla
+                                repellendus officia natus doloremque, voluptatibus veritatis autem esse eligendi magnam,
+                                ratione porro eaque corrupti vero et iste illo sed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/iguana_page.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Iguana Page</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quisquam nulla
+                                repellendus officia natus doloremque, voluptatibus veritatis autem esse eligendi magnam,
+                                ratione porro eaque corrupti vero et iste illo sed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/suricata.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Suricata</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quisquam nulla
+                                repellendus officia natus doloremque, voluptatibus veritatis autem esse eligendi magnam,
+                                ratione porro eaque corrupti vero et iste illo sed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/cuppon.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Cuppon</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quisquam nulla
+                                repellendus officia natus doloremque, voluptatibus veritatis autem esse eligendi magnam,
+                                ratione porro eaque corrupti vero et iste illo sed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/ricomida.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Ricomida</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quisquam nulla
+                                repellendus officia natus doloremque, voluptatibus veritatis autem esse eligendi magnam,
+                                ratione porro eaque corrupti vero et iste illo sed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/dmark.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">DMark</h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quisquam nulla
+                                repellendus officia natus doloremque, voluptatibus veritatis autem esse eligendi magnam,
+                                ratione porro eaque corrupti vero et iste illo sed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO  -->
+    <section id="contacto" class="container text-center py-5 mb-5">
+        <div class="mb-5">
+            <h1 class="fw-bold text-uppercase pt-5">Contacto </h1>
+            <hr class="opacity-100 w-25 mx-auto">
+        </div>
+        <div>
+            <p>¿Quiéres conocer más de mí? </p>
+            <a href="https://sex484tc8rk.typeform.com/to/JOUxfKJg" target="_blank" rel="noopener noreferrer">
+                <button class="btn bg-secondary text-white mb-5">Comenzar </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER 
+    <span class="navbar-brand h1-custom">Magdalena</span>
+-->
+    <footer id="footer" class="text-center text-white py-5 bg-nav-footer">
+        <div class="container py-2">
+            <div class="row">
+
+                <div class="col-12 col-sm-6 py-2">
+                    <h1 class="fw-bold text-uppercase h1-custom">Magdalena</h1>
+                </div>
+                <div class="col-12 col-sm-6 py-2">
+
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-github-square fa-3x mx-2"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-linkedin fa-3x mx-2"></i></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-twitter-square fa-3x mx-2"></i></a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-facebook-square fa-3x mx-2"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+    <!-- jQuery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Mi Javascript -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
